@@ -1,0 +1,23 @@
+ body {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+ }
+
+ button {
+     padding: 1rem;
+     border: 0.1rem solid #000;
+     transition: 0.3s all ease-in-out;
+     font-size: 1rem;
+ }
+
+ button:hover {
+     cursor: pointer;
+     box-shadow: 2px 2px 4px 2px #0fed5d;
+     border-color: none;
+ }
+#changedhexcolor{
+    font-weight: bold;
+}
