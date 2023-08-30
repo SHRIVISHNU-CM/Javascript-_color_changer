@@ -17,7 +17,8 @@ function render() {
 }
 
 function colorchanger() {
-    document.body.style.backgroundColor = render();
+    
     const hexcode = render();
     text.innerText = hexcode;
+    document.body.style.backgroundColor = hexcode;
 }
